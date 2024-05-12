@@ -1,0 +1,483 @@
+/* HTML styling font for all pages */
+html {
+    font-size: 22px
+}
+/* end of HTML styling for all pages */
+
+/* main body styling for entire page */
+body {
+    background-color: #2D4654;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* end of main body styling */
+
+/* styling the links */
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover, a:active {
+    color:  #87CEEB;
+}
+/* end of styling the links */
+
+/* main table styling */
+table, tr, th, td, caption {
+    border: 2px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+} 
+/* end of main table styling */
+
+/* styling the body */
+body {
+    /* background-color: #eeeeee; */
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* end of styling body portion */
+
+/* main header styling */
+header {
+    background-color:  #708090;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 1px;
+}
+/* ending of main heading styling */
+
+/* heading 1,2,3 styling */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0px;
+  padding: 0px;
+  border: 2px solid #000;
+  background-color: #23232B;
+}
+
+h3 {
+    text-align: center;
+}
+/* end of headings styling */
+
+/* ordered list list item styling */
+ol li {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px;
+}
+/* ordered list list item styling ending */
+
+/* Styling for figure captions */
+figcaption {
+    text-align: center;
+}
+/* end of styling figure captions */
+
+/* footer styling */
+footer {
+    background-color: #383843;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+footer a {
+    flex: auto;
+    text-align: center;
+   /*  background: #ccc; */
+    color: black;
+    margin: 0 5px;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #87CEEB;
+    outline: 1px solid white;
+    text-decoration: underline;
+}
+/* end of footer styling */
+
+/* navigation styling and flexbox */
+nav {
+    display: flex;
+    padding: 10px 0;
+    background-color:#2D4654;
+    border: 2px solid #000000;
+    text-align:center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    flex: auto;
+    color: black;
+    /* Set link color */
+    margin: 0 5px;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+nav a:hover {
+    color: #87CEEB;
+    outline: 1px solid white;
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #87CEEB;
+}
+/* navigation styling end */
+
+
+/* further table styling */
+table {
+    border-collapse: collapse;
+    background-color: #243b4a;
+    border: 10px;
+}
+
+th {
+    background-color:#000000;
+    border: 2px solid #000000;
+    padding: 8px;
+    text-transform: uppercase; 
+    border: 2px solid #000000;
+    font-weight: normal;
+}
+
+td {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody {
+    background-color: #23232B;
+}
+
+tr:nth-child(even) {
+    background-color: #073156;
+    /* Set background color for odd table rows */
+}
+
+/* end of table styling */
+
+li strong {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img {
+    border: 4px solid #000;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+  /* ~~MEDIA QUERIES~~ */
+
+/* ------------------------------------------ */
+
+/* || SMALL */
+@media screen and (min-width: 576px) {
+    body {
+      background-color:#073156;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    header {
+        background-color:darkslateblue;
+    }
+    
+
+    nav {
+        background-color:darkslateblue;
+    }
+
+    nav a:hover {
+        color:#000;
+        outline: 1px solid black;
+        text-decoration: underline;
+    }
+
+    th {
+        background-color: #23232B;
+        font-weight: normal;
+
+    }
+
+    tbody {
+        background-color: darkslateblue;
+    }
+
+    tr:nth-child(even) {
+        background-color: #073156;
+    }
+
+    footer {
+        background-color: darkslateblue;
+    }
+
+    footer a:hover {
+        color:#000;
+        outline: 1px solid black;
+        text-decoration: underline;
+    }
+
+  }
+
+/* ------------------------------------------ */
+
+/* || MEDIUM */
+@media screen and (min-width: 768px) {
+    body {
+      background-color:darkred;
+      font-family:'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: crimson;
+    }
+
+    nav {
+        background-color: darkred;
+    }
+
+    nav a:hover {
+        color:#000;
+        outline: 1px solid black;
+        text-decoration: underline;
+    }
+
+    th {
+        background-color: #23232B;
+        font-weight: normal;
+
+    }
+
+    tbody {
+        background-color:firebrick;
+    }
+
+    tr:nth-child(even) {
+        background-color: darkred;
+    }
+
+    footer {
+        background-color: darkred;
+    }
+
+    footer a:hover {
+        color:#000;
+        outline: 1px solid black;
+        text-decoration: underline;
+    }
+
+  }
+
+/* ------------------------------------------ */
+
+/* || LARGE */
+@media screen and (min-width: 992px) {
+    body {
+      background-color: darkgreen;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    HTML {
+        font-size: 26px;
+    }
+
+    header {
+        background-color:#019b37;
+        
+    }
+
+    nav {
+        background-color:#133713;
+    }
+
+    nav a:hover {
+        color:#019b37;
+        outline: 1px solid #019b37;
+        text-decoration: underline;
+    }
+
+    th {
+        background-color: #23232B;
+        font-weight: normal;
+
+    }
+
+    tbody {
+        background-color: #194919;
+    }
+
+    tr:nth-child(even) {
+        background-color: #019b37;
+    }
+
+    footer {
+        background-color: #133713;
+    }
+
+    footer a:hover {
+        color:#019b37;
+        outline: 1px solid #019b37;
+        text-decoration: underline;
+    }
+
+  }
+
+/* || XL  */
+@media screen and (min-width: 1200px) {
+    body {
+      background-color: #554640;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    HTML {
+        font-size: 26px;
+    }
+
+    header {
+        background-color:tan;
+        color: #000;
+        
+    }
+
+    nav {
+        background-color:#433420;
+    }
+
+    nav a:hover {
+        color:burlywood;
+        outline: 1px solid burlywood;
+        text-decoration: underline;
+    }
+
+    th {
+        background-color: #332818;
+        font-weight: normal;
+        /* color: white; */
+
+    }
+
+    tbody {
+        background-color: #745b39;
+    }
+
+    tr:nth-child(even) {
+        background-color: #332818;
+    }
+
+    footer {
+        background-color: #433420;
+    }
+
+    footer a:hover {
+        color:burlywood;
+        outline: 1px solid burlywood;
+        text-decoration: underline;
+    }
+
+
+  }
+
+/* || MOBILE DEVICE LANDSCAPE  */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+        background-color:#073156;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+  
+      header {
+          background-color:darkslateblue;
+      }
+  
+      nav {
+          background-color:darkslateblue;
+      }
+  
+      nav a:hover {
+          color:#000;
+          outline: 1px solid black;
+          text-decoration: underline;
+      }
+
+      table {
+        max-width: 100%;
+        height: auto;
+    }
+  
+      th {
+          background-color: #23232B;
+          font-weight: normal;
+  
+      }
+  
+      tbody {
+          background-color: darkslateblue;
+      }
+  
+      tr:nth-child(even) {
+          background-color: #073156;
+      }
+  
+      footer {
+          background-color: darkslateblue;
+      }
+  
+      footer a:hover {
+          color:#000;
+          outline: 1px solid black;
+          text-decoration: underline;
+      }
+
+  }
+
